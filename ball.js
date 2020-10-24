@@ -11,6 +11,7 @@ class Bob {
    
     }
     display(){
+        
         push();
         translate(this.body.position.x, this.body.position.y);
         fill("white")

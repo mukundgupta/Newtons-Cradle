@@ -25,11 +25,11 @@ function setup() {
 	bob3 = new Bob(360,400,20)
 	bob4 = new Bob(480,400,20)
 	bob5 = new Bob(320,400,20)
-	sling1 = new SlingShot(bob1.body,{x: 400,y: 200})
-	sling2 = new SlingShot(bob2.body,{x: 440,y: 200})
-	sling3 = new SlingShot(bob3.body,{x: 360,y: 200})
-	sling4 = new SlingShot(bob4.body,{x: 480,y: 200})
-	sling5 = new SlingShot(bob5.body,{x: 320,y: 200})
+	sling1 = new SlingShot(bob1.body,roof.body,-bob1.diameter*2,0)
+	sling2 = new SlingShot(bob2.body,roof.body,-bob2.diameter*2,0)
+	sling3 = new SlingShot(bob3.body,roof.body,-bob3.diameter*2,0)
+	sling4 = new SlingShot(bob4.body,roof.body,-bob4.diameter*2,0)
+	sling5 = new SlingShot(bob5.body,roof.body,-bob5.diameter*2,0)
 
 
 	Engine.run(engine);
