@@ -20,8 +20,8 @@ class SlingShot{
         var Anchor1X = pointA.x
         var Anchor1Y = pointA.y
 
-        var Anchor2X = pointB.x
-        var Anchor2Y = pointB.y
+        var Anchor2X = pointB.x+offsetX
+        var Anchor2Y = pointB.y+offsetY
         strokeWeight(4);
         stroke("blue")
         fill("blue")
